@@ -11,11 +11,11 @@ const onFinishFailed = (errorInfo: any) => {
   console.log('Failed:', errorInfo);
 };
 
-type FieldType = {
-  username?: string;
-  password?: string;
-  remember?: string;
-};
+// type FieldType = {
+//   username?: string;
+//   password?: string;
+//   remember?: string;
+// };
 
 const validationSchema = Yup.object().shape({
   username: Yup.string().required('Please input your username!'),
