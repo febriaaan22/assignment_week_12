@@ -75,8 +75,8 @@ const Final: React.FC = () => (
             name="remember"
             valuePropName="checked"
           >
-            {({ field }) => (
-              <Checkbox {...field}>Remember me</Checkbox>
+            {({ }) => (
+              <Checkbox {...Field}>Remember me</Checkbox>
             )}
           </Field>
         </div>
